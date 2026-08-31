@@ -80,8 +80,3 @@ Use this structure to align with the **Dissertation Center** and **Theoretical F
 - **[Theories Used in IS Research](https://www.nu.edu/)**: Summaries of widely used theories in information systems.
 
 ---
-### **Next Steps**
-Would you like me to:
-1. **Create a canvas document** with this study plan for easy editing and tracking?
-2. **Generate a checklist** for Assignment 2 to ensure all requirements are met?
-3. **Adjust the plan** to include more time for a specific resource or topic?
