@@ -1,7 +1,3 @@
-Thank you for sharing the **Lesson 2 Resources**! With these materials, I can now refine your **Week 2 study plan** to include **specific readings and resources** assigned by the university. Below is your **updated and detailed study plan** for **Assignment 2**, incorporating these resources.
-
----
-
 ## **Week 2 Study Plan (Updated with Lesson 2 Resources)**
 ### **Goal**
 Prepare for **Assignment 2: Determine Important Ph.D. Approaches in Computer Science** (Due: **Sunday, September 6, 2026**) by focusing on:
