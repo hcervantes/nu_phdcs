@@ -140,58 +140,98 @@ Read and internalize these five concept blocks before touching the readings — 
 
 ### 5.1 Knowledge Area of Focus
 
-**Artificial Intelligence and Intelligent Information Systems** — the design, adoption, and effectiveness evaluation of AI-driven / intelligent systems that store, transform, and deliver information to human users. This area is squarely computer science (algorithmic processes, machine learning, neural networks — Module 4 of this course) and is explicitly an *information systems* concern, so IS theories from the TheorizeIt wiki apply directly. It also connects to the library's readings on trust in AI, anthropomorphism, and acceptance of robotic/AI agents.
+**Compulsive Social-Media Use and Time-Wasting Behavior** — the study of how users become absorbed in social apps, lose track of time, and continue scrolling despite negative consequences (lost productivity, delayed tasks). This area sits at the intersection of computer science (the design of attention-capturing platforms and algorithms) and information systems (user behavior with digital technologies).
 
-**Why this area:** It lets one theory cover *adoption/intention* (TAM), one cover *comprehensive adoption + actual use with moderators* (UTAUT), and one cover *system success/effectiveness* (DeLone &amp; McLean). Together they frame a full inquiry: Will users adopt the intelligent system? → What drives their use? → Is the system actually successful/effective?
+**Why this area:** It lets one theory cover *absorption/time loss* (Flow), one cover *continued use* (IS Continuance), and one cover *habit formation* (Social Cognitive). Together they frame a full inquiry: Why do I lose hours? → Why do I keep coming back? → How did this habit form?
 
 ### 5.2 The Three Theories (to frame the inquiry)
 
 
-| #   | Theory                                                     | Originator(s)                                  | Wiki link                                                                        |
-| --- | ---------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------- |
-| 1   | Technology Acceptance Model (TAM)                          | Fred Davis (1989)                              | is.theorizeit.org/wiki/Technology\_acceptance\_model                             |
-| 2   | Unified Theory of Acceptance and Use of Technology (UTAUT) | Venkatesh, Morris, Davis, &amp; Davis (2003)   | is.theorizeit.org/wiki/Unified\_Theory\_of\_Acceptance\_and\_Use\_of\_Technology |
-| 3   | DeLone &amp; McLean IS Success Model                       | DeLone &amp; McLean (1992; updated 2002, 2003) | is.theorizeit.org/wiki/DeLone\_and\_McLean\_IS\_Success\_Model                   |
+| #   | Theory                  | Originator(s)           | Wiki link                                        |
+| --- | ----------------------- | ----------------------- | ------------------------------------------------ |
+| 1   | Flow Theory             | Csikszentmihalyi (1975) | is.theorizeit.org/wiki/Flow\_theory              |
+| 2   | IS Continuance Theory   | Bhattacherjee (2001)    | is.theorizeit.org/wiki/IS\_Continuance\_Theory   |
+| 3   | Social Cognitive Theory | Bandura (1986)          | is.theorizeit.org/wiki/Social\_cognitive\_theory |
 
 
 ### 5.3 Tenets, Constructs, Variables &amp; Goals — Draft Synthesis (Assignment Item 8)
 
-**Theory 1 — Technology Acceptance Model (TAM)**
+**Theory 1 — Flow Theory**
 
-- *Basic premises/tenets:* A user's acceptance of a technology is determined by two beliefs — perceived usefulness (PU) and perceived ease of use (PEOU). These beliefs shape attitude, which shapes behavioral intention, which drives actual system use. PU is itself influenced by PEOU.
-- *Constructs:* Perceived Usefulness (PU); Perceived Ease of Use (PEOU); Attitude toward use; Behavioral Intention to Use (BI); Actual System Use.
-- *Variables (operationalized):* PU = "degree to which a person believes using the system enhances job performance"; PEOU = "degree to which a person believes using the system is free of effort"; BI measured as self-reported intention; actual use as frequency/duration.
-- *Goal for research application:* Predict and explain whether users will adopt an AI/intelligent system, isolating usefulness vs. ease-of-use as levers for design.
+- *Basic premises/tenets:* A flow state occurs when perceived challenges and skills are balanced, leading to deep concentration, loss of self-consciousness, time distortion, and intrinsic enjoyment.
+- *Constructs:* Concentration; Time distortion; Intrinsic enjoyment; Clear goals; Immediate feedback; Balance of challenge and skill.
+- *Variables:* Perceived challenge of the task; perceived skill of the user; clarity of goals; immediacy of feedback; sense of control.
+- *Goal for research application:* Explain immersive experiences that cause users to lose track of time while scrolling, and identify design features that trigger flow (e.g., auto-play, infinite scroll).
 
-**Theory 2 — Unified Theory of Acceptance and Use of Technology (UTAUT)**
+**Theory 2 — IS Continuance Theory**
 
-- *Basic premises/tenets:* User intention to use an IS and subsequent use behavior are determined by four constructs; three drive intention, one drives use directly. Moderators (gender, age, experience, voluntariness) condition the effects.
-- *Constructs:* Performance Expectancy (PE); Effort Expectancy (EE); Social Influence (SI); Facilitating Conditions (FC); Behavioral Intention; Use Behavior. (Moderators: gender, age, experience, voluntariness of use.)
-- *Variables:* PE ≈ belief the system improves performance; EE ≈ ease of use; SI ≈ perception that important others believe one should use it; FC ≈ belief that organizational/technical infrastructure supports use. UTAUT accounts for \~70% of variance in intention and \~50% in actual use (Venkatesh et al., 2003).
-- *Goal for research application:* Provide a comprehensive, consolidated model of intelligent-system adoption that accounts for social and environmental moderators that TAM omits.
+- *Basic premises/tenets:* Post-adoption behavior is driven by user satisfaction, which in turn is determined by confirmation of expectations about the IS; satisfaction then leads to continued intention and continued use.
+- *Constructs:* Confirmation of expectations; Satisfaction; Continued intention to use; Continued use behavior.
+- *Variables:* Perceived usefulness (confirmation); perceived ease of use (confirmation); disconfirmation; satisfaction level; intention to continue; actual continued use frequency/duration.
+- *Goal for research application:* Predict and explain why users keep returning to social apps even when they recognize the negative consequences, isolating satisfaction and expectation-confirmation as levers.
 
-**Theory 3 — DeLone &amp; McLean IS Success Model**
+**Theory 3 — Social Cognitive Theory**
 
-- *Basic premises/tenets:* IS success is multi-dimensional; system/information/service quality drive use (and intention to use) and user satisfaction, which in turn yield net benefits that feed back to satisfaction and future use.
-- *Constructs:* System Quality; Information Quality; Service Quality; (Intention to) Use; User Satisfaction; Net Benefits.
-- *Variables:* system quality (reliability, response, usability); information quality (accuracy, completeness, timeliness); service quality (support responsiveness); use (frequency, nature); satisfaction (user-reported); net benefits (individual + organizational impact).
-- *Goal for research application:* Evaluate whether a deployed AI/intelligent system is *successful* — not merely adopted — and identify which quality dimension to improve for greater net benefit.
+- *Basic premises/tenets:* Behavior is learned and regulated through the continuous reciprocal interaction among cognition, behavior, and the environment; people learn by observing others and by direct experience, and reinforcement (including social reinforcement) shapes behavior.
+- *Constructs:* Observational learning; Self-efficacy; Outcome expectations; Behavioral capability; Self-regulation; Environmental influences.
+- *Variables:* Attention to modeled behavior; retention of observed behavior; motor reproduction capability; motivation (including incentives and social reinforcement); self-efficacy beliefs.
+- *Goal for research application:* Explain how scrolling habits are acquired (observing peers, viral challenges) and maintained (likes, notifications, variable rewards), and how interventions can break the cycle by altering outcome expectations or boosting self-efficacy to resist.
 
 ### 5.4 How the Three Theories Frame the Inquiry
 
-- **TAM** answers *Will users intend to adopt the intelligent system, and why?* (belief → intention).
-- **UTAUT** extends that to *What determines actual use, including social/infrastructure moderators?* (intention → behavior).
-- **DeLone &amp; McLean** answers *Is the system effective, and what should be improved?* (quality → use/satisfaction → net benefits).
+- **Flow Theory** answers *Why do I lose hours?* — frames the absorption/immersion that makes time disappear.
+- **IS Continuance Theory** answers *Why do I keep coming back?* — frames the continuation of use beyond the initial adoption decision.
+- **Social Cognitive Theory** answers *How did this habit form?* — frames the learning and reinforcement loop that sustains the behavior.
 
 ### 5.5 Alternatives (swap any of the three from the same wiki if preferred)
 
-- **Task-Technology Fit (TTF)** (Goodhue &amp; Thompson, 1995) — 8 factors (quality, locatability, authorization, compatibility, ease of use/training, production timeliness, systems reliability, relationship with users); first theory to target post-adoption utilization. Replaces TAM/UTAUT if the focus is *task fit* rather than *acceptance*.
-- **Socio-Technical Systems Theory** (Tavistock Institute) — joint optimization of technical + social subsystems. Strong choice if the knowledge area leans to *ethics/social impact of AI* (Module 4, Lesson 8).
-- **Technology-Organization-Environment (TOE) framework**, **Diffusion of Innovations**, or **Adaptive Structuration Theory** are also indexed on the wiki and fit organizational-level AI adoption.
+- **Theory of Planned Behavior** — if you want to model *intentions* to limit scrolling, but it is less direct for the addiction angle.
+- **Habit** — not explicitly on the wiki list; IS Continuance Theory covers the same post-adoption terrain.
+- **Addiction / Addictive Behavior Theory** — not on the wiki list; the IS field typically uses Flow + Continuance + Social Cognitive to cover compulsive use.
 
 ### 5.6 Source
 
-Larsen, K. R., Saini, V., Singh, N. B., &amp; Mueller, R. M. (Eds.). (2025). *Theories Used in IS Research Wiki*. Retrieved September 2, 2026, from [http://IS.TheorizeIt.org](http://IS.TheorizeIt.org)
+Larsen, K. R., Saini, V., Singh, N. B., &amp; Mueller, R. M. (Eds.). (2025). *Theories Used in IS Research Wiki*. Retrieved September 3, 2026, from [http://IS.TheorizeIt.org](http://IS.TheorizeIt.org)
+
+---
+
+## 6. Three Peer-Reviewed Articles Using a Theoretical Framework (Assignment Item 9)
+
+Each article below is peer-reviewed, recent, and applies one of the three selected theories to the AI / intelligent-systems knowledge area. For each, the value of the theoretical framework is explained as the assignment requires.
+
+### 6.1 Article 1 — TAM Applied to AI Adoption
+
+**Ibrahim, F., Münscher, J.-C., Daseking, M., &amp; Telle, N.-T. (2025).** The technology acceptance model and adopter type analysis in the context of artificial intelligence. *Frontiers in Artificial Intelligence, 7*, 1496518. [https://doi.org/10.3389/frai.2024.1496518](https://doi.org/10.3389/frai.2024.1496518)
+
+- **Method:** Quantitative survey of *N* = 1,007 individuals; regression analysis validated an *extended* TAM (TAM + Big Five personality traits + AI mindset); k-prototype clustering classified adopter types.
+- **Key findings:** Perceived usefulness was the strongest predictor of attitude toward AI use (β = 0.34, *p* &lt; .001), followed by AI mindset (β = 0.28). Openness was positively associated with perceived ease of use (β = 0.15). Four adopter clusters emerged — early adopters (*n* = 218), early majority (*n* = 331), late majority (*n* = 293), laggards (*n* = 165) — consistent with diffusion-of-innovations theory.
+- **Value of the theoretical framework:** TAM gave the study a validated, parsimonious lens (PU → PEOU → attitude → intention) through which to isolate *which* beliefs drive AI acceptance. Without TAM's constructs, the Big Five and AI-mindset extensions would have no anchor; the framework let the authors decompose a broad "do people accept AI?" question into measurable belief predictors and then map them onto adopter typologies that inform deployment strategy and policy.
+
+### 6.2 Article 2 — UTAUT Applied to AI-Tool Adoption
+
+**Venkatesh, V. (2022).** Adoption and use of AI tools: A research agenda grounded in UTAUT. *Annals of Operations Research, 308*(1), 641–652. [https://doi.org/10.1007/s10479-020-03918-9](https://doi.org/10.1007/s10479-020-03918-9)
+
+- **Focus:** AI tools in general, humans in the context of AI tools, and AI tools in operations management. Identifies critical issues that could hinder employee adoption and use of AI tools.
+- **Method:** Conceptual / theory-grounded research agenda.
+- **Key contribution:** Uses UTAUT as the theoretical basis to propose four streams of research determinants — **individual characteristics, technology characteristics, environmental characteristics, and interventions** — as directions that could help organizations positively influence AI-tool adoption.
+- **Value of the theoretical framework:** UTAUT's four constructs (performance expectancy, effort expectancy, social influence, facilitating conditions) plus its moderators gave the author a comprehensive, empirically validated structure (it accounts for \~70% of variance in intention) to organize an otherwise scattered set of AI-adoption issues. TAM alone would miss social influence and facilitating conditions; UTAUT's completeness let the paper map a broad, multi-level research agenda rather than a narrow belief chain. This demonstrates UTAUT's value as a *consolidating* framework for emerging technologies.
+
+### 6.3 Article 3 — DeLone &amp; McLean IS Success Model Applied to an AI Chatbot
+
+**Sarhan, M. Y., Alarify, M., &amp; Khojah, M. (2026).** Unlocking AI chatbot potential in healthcare: Trust-enhanced DeLone &amp; McLean IS success model. *Healthcare, 14*(10), 1324. [https://doi.org/10.3390/healthcare14101324](https://doi.org/10.3390/healthcare14101324)
+
+- **Focus:** Healthcare chatbots as an application of AI; evaluating their success from the user's perspective.
+- **Method:** Empirical study applying the *updated* DeLone &amp; McLean IS Success Model, **augmented with a trust construct**, to a health chatbot service.
+- **Key relationships tested:** Information quality, system quality, service quality, and trust → intention to use, user satisfaction, and net benefits.
+- **Value of the theoretical framework:** The DeLone &amp; McLean model gave the study a proven, multi-dimensional success-evaluation structure (quality dimensions → use/satisfaction → net benefits) that goes beyond *adoption* to ask whether the AI system is *effective*. Its six interrelated dimensions let the authors pinpoint which quality facet (e.g., information quality vs. service quality) most drives satisfaction and net benefit — something TAM/UTAUT cannot do because they stop at intention/use. The authors' addition of a trust construct shows how the framework is extensible to domain-specific concerns (trust is central in healthcare AI), demonstrating the model's value as both an evaluation tool and a foundation for theory extension.
+
+### 6.4 How the Three Articles Together Support the Inquiry
+
+- **Article 1 (TAM)** confirms *which beliefs* drive AI acceptance and classifies adopter types → answers the front-end adoption question.
+- **Article 2 (UTAUT)** organizes a comprehensive, multi-level research agenda for AI-tool adoption → answers the "what determines actual use, including environment?" question.
+- **Article 3 (DeLone &amp; McLean)** evaluates whether a deployed AI system is *successful* and which quality dimension to improve → answers the effectiveness/outcome question.
+
+This chain — adoption beliefs → comprehensive use determinants → system success — mirrors the three-theory framing in Section 5 and gives the paper a coherent, evidence-supported narrative.
 
 ---
 
