@@ -158,6 +158,8 @@ These two lines give you:
 ### **Short inspiration paragraph (SBIRS‑ready)**  
 In the SBIRS OPIR pipeline, **data** refers to raw infrared measurements collected across multiple spectral bands. These raw pixel intensities have no operational meaning until they are processed. Through filtering, background subtraction, and feature extraction, SBIRS converts raw sensor data into **information**, such as detected thermal anomalies and missile plume characterizations. Supporting this transformation is **metadata**, including timestamps, sensor orientation, and orbital position, which provide essential context for interpreting the infrared signatures.
 
+Referce:
+Thompson, N. M., Bir, C., Widmar, N. O., & Mintert, J. (2021). Understanding the farm data lifecycle: Collection, use, and impact of farm data on U.S. commercial corn and soybean farms. Computers and Electronics in Agriculture, 185, 106–132. https://doi.org/10.1016/j.compag.2021.106132
 ---
 
 # ⭐ 2. **PURPOSE OF DATA OPERATIONS**  
