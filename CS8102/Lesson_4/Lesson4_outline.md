@@ -119,6 +119,25 @@ Start with the course resources (already in APA):
 - Doskas, C. (2021). Python programming: Object-oriented programming. *ISSA Journal*, 44–47.
 - Shirer, D. L. (2026). Computer programming languages. In *Salem press encyclopedia of science*. Salem Press.
 
+*Additional Refs:*
+- Farshidi, S., Jansen, S., & Deldar, M. (2021). A decision model for programming
+          language ecosystem selection: Seven industry case studies. Information & Software
+          Technology, 139, N.PAG. https://doi.org/10.1016/j.infsof.2021.106640
+
+- Tomasz Wiejak, & Jakub Smołka. (2024). Performance of machine learning tools.
+          Comparve analysis of libraries in interpreted and compiled programming languages.
+          Journal of Computer Sciences Institute, 33. https://doi.org/10.35784/jcsi.6589
+
+- Dashdamirli, N. (2025). Analyzing the Performance and Practicality of C, Rust,
+          Python, and Lua Programming Languages for Developing Microcontroller
+          Applications. 2025 6th International Conference on Problems of Cybernetics and
+          Informatics (PCI), Problems of Cybernetics and Informatics (PCI), 2025 6th
+          International Conference On, 1–5. https://doi.org/10.1109/PCI66488.2025.11219778
+
+- W. Brborich, B. Oscullo, J. E. Lascano and S. Clyde, "An Observational Study on the Maintainability Characteristics of the Procedural and Object-Oriented Programming Paradigms," 2020 IEEE 32nd Conference on Software Engineering Education and Training (CSEE&T), Munich, Germany, 2020, pp. 1-10, doi: 10.1109/CSEET49119.2020.9206213. keywords: {Maintenance engineering;Programming profession;Software;Task analysis;Measurement;Education;programming paradigms;object-oriented programming;procedural programming paradigm;maintainability;software-engineering education},
+
+
+
 **Then add ≥ 4 recent peer-reviewed library sources.** Suggested search strategies:
 
 - "programming language selection criteria" software engineering
