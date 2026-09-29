@@ -1,6 +1,6 @@
 # DRAFT PAPER — for inspiration only
 
-> ⚠️ This is a starting point, not a submission. Rewrite in your own voice, verify every citation in the university library, and follow your school's academic integrity policy — Turnitin will flag copied text.
+> ⚠️ This is a starting point, not a submission. Rewrite in own voice, verify every citation in the university library, and follow your school's academic integrity policy — Turnitin will flag copied text.
 
 ---
 
