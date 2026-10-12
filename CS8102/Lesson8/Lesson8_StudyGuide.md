@@ -1,152 +1,43 @@
-# ✅ **Study Plan (Today → Sunday 10/18/2026)**  
-*(Designed for steady progress, no cramming, and aligned with your assignment’s sections.)*
+# Study Plan — Week of Mon Oct 12 → Sun Oct 18, 2026
 
-### **📅 Monday (Today – 10/12)**  
-**Goal:** Understand assignment requirements + gather theories  
-- Read Lesson 8 (already uploaded).  
-- Visit IS Theories Wiki and identify **5–7 theories** relevant to ethics, systems, and risk.  
-  - Examples from the IS Wiki include **General Systems Theory**, **Algorithmic Control Theory**, **Institutional Theory**, **Information Warfare**, **Critical Social Theory**, **Complexity Theory**, **CYNEFIN**, **Diffusion of Innovations**, etc.   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-- Select **4 peer‑reviewed sources** (you already have one from EBSCO).  
-- Build your working bibliography.
+**Goal:** Complete Assignment 8 (Signature Assignment: Ethical & Social Issues Related to Computer Science)
+**Due:** Sunday, Oct 18, 2026, 11:58 PM · 25 points · Turnitin enabled
+**Format:** 8–11 page paper (excluding title/references) · APA 7 · ≥4 recent peer-reviewed sources
 
-**Pause here — want me to help select the best theories for your paper?**
+## Monday 10/12 — Orientation
+- [ ] Read Lesson 8 and the full grading rubric
+- [ ] Highlight the six assignment instruction bullets
+- [ ] Skim the EBSCO article (D'Cruz et al., 2022, *Journal of Business Ethics*)
+- [ ] Pick 2–3 IS wiki theories to anchor the paper (suggested: general/sociotechnical systems theory, cybernetics, stakeholder theory)
 
----
+## Tuesday 10/13 — Source Gathering
+- [ ] Search the library for 4+ recent peer-reviewed articles
+- [ ] Verify availability of recommended sources: Martin (2019), Floridi et al. (2018), Mittelstadt et al. (2016), Friedman & Nissenbaum (1996)
+- [ ] Add at least one 2023–2026 article to satisfy the "recent" requirement
+- [ ] Save APA 7 citations as you go
 
-### **📅 Tuesday (10/13)**  
-**Goal:** Write Section 1  
-- Draft: *Evaluation of scholarly sources on social & ethical issues in CS*.  
-- Use your EBSCO article (D’Cruz et al., 2022) for megatrends + tech ethics.  
-- Add 2–3 more peer‑reviewed sources (recommendations below).
+## Wednesday 10/14 — Reading & Outline Sections III–V
+- [ ] Deep-read all sources with the outline in hand
+- [ ] Draft Section III: Evaluation of scholarly sources
+- [ ] Draft Section IV: Ethical implications for individuality & human rights (stakeholder theory)
 
----
+## Thursday 10/15 — Draft Sections VI–VIII
+- [ ] Draft Section VI: Implications for thought leaders' problem-solving
+- [ ] Draft Section VII: Theories of ethics and risk (consequentialism, deontology, virtue ethics; Lee, 2015)
+- [ ] Draft Section VIII: AI, IoT, and automation — challenges & opportunities
+- ⚠️ This is the critical checkpoint — protect this day to stay on schedule
 
-### **📅 Wednesday (10/14)**  
-**Goal:** Write Section 2  
-- Draft: *Ethical implications of emerging technologies (AI, IoT, Automation) + individuality & human rights*.  
-- Pull examples from Lesson 8 (algorithmic bias, privacy, surveillance).  
-- Integrate IS theories (e.g., Algorithmic Control Theory, Institutional Theory).
+## Friday 10/16 — Intro, Conclusion, References
+- [ ] Write the introduction with thesis and section preview
+- [ ] Write the conclusion (no new citations)
+- [ ] Compile the full APA 7 reference list
+- [ ] Verify body length is 8–11 pages
 
----
+## Saturday 10/17 — Revision & Turnitin
+- [ ] Revise for APA headings, in-text citations, and reference formatting
+- [ ] Proofread for grammar, spelling, and mechanics (rubric row: 0 errors for an A)
+- [ ] Run the Turnitin pre-check and fix any flagged issues
 
-### **📅 Thursday (10/15)**  
-**Goal:** Write Section 3  
-- Draft: *Systems Theory perspective synthesis*.  
-- Use Lesson 8’s systems explanation (GPU/CPU/motherboard interdependence).  
-- Add **General Systems Theory** from IS Wiki.   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-- Connect computing systems ↔ biological, social, economic systems.
-
----
-
-### **📅 Friday (10/16)**  
-**Goal:** Write Section 4  
-- Draft: *Implications of ethical/social issues on thought leaders’ approaches to solving programming problems*.  
-- Use Lesson 8 examples:  
-  - Cutting corners → bugs → societal harm  
-  - Biased algorithms → stakeholder exclusion  
-  - ACM Code of Ethics expectations
-
----
-
-### **📅 Saturday (10/17)**  
-**Goal:** Write Section 5  
-- Draft: *Evaluate theories of ethics & risk in computers and emerging tech*.  
-- Use Lesson 8’s cybernetics + risk analysis content (Novikov, Lee).  
-- Add IS theories related to risk:  
-  - **Information Warfare**  
-  - **Complexity Theory**  
-  - **CYNEFIN** (sense‑making under uncertainty)
-
----
-
-### **📅 Sunday (10/18)**  
-**Goal:** Finalize  
-- Write conclusion.  
-- APA formatting check.  
-- Turnitin pre‑check.  
-- Submit before 11:58 PM.
-
----
-
-# 📘 **Rubric‑Aligned Assignment Outline (8–11 pages)**  
-*(This outline is structured to hit every rubric criterion.)*
-
-## **I. Introduction (0.5 page)**  
-- Introduce ethical & social issues in CS.  
-- State purpose: evaluate issues, synthesize systems theory, assess risk/ethics theories, examine emerging tech.
-
----
-
-## **II. Evaluation of Scholarly Sources on Social & Ethical Issues (1.5–2 pages)**  
-- Summaries + synthesis of at least 4 peer‑reviewed sources.  
-- Include themes: digital divide, privacy, algorithmic bias, hacking, governance.  
-- Integrate D’Cruz et al. (2022) on megatrends and tech ethics.   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-- Connect to ACM Code of Ethics (Lesson 8).
-
----
-
-## **III. Ethical Implications of Emerging Technologies (AI, IoT, Automation) + Individuality & Human Rights (1.5–2 pages)**  
-- AI: bias, inscrutability, autonomy, surveillance.  
-- IoT: biometric data, privacy erosion.  
-- Automation: job displacement, algorithmic control.  
-- Use IS theories:  
-  - **Algorithmic Control Theory** (worker autonomy)   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-  - **Institutional Theory** (norms shaping tech adoption)   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)
-
----
-
-## **IV. Systems Theory Perspective: Interrelationships Between Computing & Non‑Computing Systems (1.5–2 pages)**  
-- Use Lesson 8’s hardware subsystem example.  
-- Add **General Systems Theory** from IS Wiki.   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-- Show how computing systems interact with:  
-  - biological systems (wearables, health data)  
-  - social systems (communication platforms)  
-  - economic systems (automation, labor markets)
-
----
-
-## **V. Implications for Thought Leaders Solving Programming Problems (1–1.5 pages)**  
-- Cutting corners → bugs → societal harm.  
-- Biased algorithms → stakeholder exclusion.  
-- Ethical leadership → governance, transparency, stakeholder inclusion.  
-- Tie back to ACM Code of Ethics.
-
----
-
-## **VI. Theories of Ethics & Risk in Computing + Emerging Tech (1.5–2 pages)**  
-- Cybernetics (Novikov, 2016) → control, communication.  
-- Risk analysis (Lee, 2015) → cost‑benefit, countermeasures.  
-- IS theories:  
-  - **Complexity Theory** (nonlinear risk)   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-  - **CYNEFIN Framework** (decision‑making under uncertainty)   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)  
-  - **Information Warfare** (security, adversarial risk)   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)
-
----
-
-## **VII. Ethical Challenges & Opportunities of AI, IoT, Automation (1–1.5 pages)**  
-- Challenges: bias, privacy, surveillance, autonomy, job loss.  
-- Opportunities: efficiency, accessibility, safety, innovation.  
-- Use D’Cruz et al. (2022) on human‑centered digital ethics.   [is.theorizeit.org](https://is.theorizeit.org/wiki/Main_Page)
-
----
-
-## **VIII. Conclusion (0.5 page)**  
-- Summarize insights.  
-- Reinforce systems perspective + ethical responsibility.
-
----
-
-# 📚 **Recommended Peer‑Reviewed Sources (Recent)**  
-*(All are widely cited and directly relevant.)*
-
-1. **Floridi, L. & Taddeo, M. (2016). What is data ethics?**  
-2. **Mittelstadt, B. (2019). AI ethics—Too principled?**  
-3. **Greene, D., Hoffmann, A., & Stark, L. (2019). Better, nicer, clearer, fairer: A critical assessment of algorithmic fairness.**  
-4. **Raji, I., et al. (2020). Audit studies of AI systems.**  
-5. **Bryson, J. (2018). The ethics of autonomous systems.**
-
----
-
-If you want, I can now **turn this outline into a full draft**, or help you **select the best theories from the IS Wiki** for each section.
-
-Which step do you want to work on next?
+## Sunday 10/18 — Final Submission
+- [ ] Final proofread against the rubric self-check
+- [ ] Submit to Dropbox before 11:58 PM
