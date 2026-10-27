@@ -20,25 +20,44 @@
 
 ## Assignment Due This Week
 
-### Assignment 6 — Hashing, Clustering & File-Sharing Algorithms (Paper)
-**Due: Dec 6, 2026 · 5–7 pages · 10 points · APA · ≥5 scholarly resources**
+### Assignment 6 — Compare Algorithms for Data Decryption and Clustering
+**Due: Dec 6, 2026 11:59 PM · 10 points · Turnitin enabled**
 
-**Outline:**
-1. **Introduction** — distributed systems and the role of these algorithm families in data decryption and clustering.
-2. **System architectures** — how each algorithm family fits into a distributed architecture.
-3. **Coding/implementation structures** — how each is implemented, with code examples.
-4. **Deployment strategies** — how each is deployed for efficiency.
-5. **Potential issues & resolutions** — failure modes, security concerns, remediation.
-6. **Comparative analysis & conclusion.**
-7. **References.**
+#### Assignment Instructions
+Research hashing, clustering, and file-sharing algorithms in distributed systems, and write a paper comparing each algorithm's use for **data decryption and clustering** (these go beyond simple linear/graph searching or sorting). Your paper must include:
 
-**Rubric highlights:** architecture clarity, instruction compliance, content depth, critical thinking, APA.
+- A description of the architecture.
+- Information about the architecture, coding, and implementation structures of each algorithm on data sets.
+- An explanation of how the architecture can be deployed for efficient performance.
+- Any issues that could be encountered and how they could be resolved.
+- Examples of algorithm code.
+- **Length:** 5–7 pages (excluding title and references) · **References:** ≥5 scholarly resources · APA.
+
+#### Simplified Grading Rubric (10 pts)
+| Criterion | Weight | To earn full points |
+|---|---|---|
+| Description of the system architecture + explanation of how that architecture helps performance | 3 pts | Strong architecture description AND strong performance explanation, peer-reviewed |
+| Assignment instructions | 2 pts | All five bullets covered, including code examples |
+| Content & critical thinking | 2 pts | Genuine comparison of the three algorithm families |
+| Cohesion & organization | 2 pts | One framework (architecture → coding → deployment → issues) applied to all three |
+| Grammar, mechanics, APA, resources | 1 pt | Error-free APA; scholarly sources |
+
+**Grade scale:** Exceeds ≥9 · Meets ≥8 · Needs Improvement ≥7.3 · Deficient ≥4
+
+#### Assignment Outline & Writing Inspiration
+1. **Introduction (~0.5 pg)** — Distributed systems context: why decryption and clustering at scale need specialized algorithms (not simple search/sort).
+2. **Hashing algorithms (~1.25 pg)** — Architecture (hash functions, hash tables, distributed hash tables), how hashing supports data decryption/verification, coding/implementation structure, a code example (e.g., SHA-256 or a DHT lookup). Deployment: consistent hashing for load distribution.
+3. **Clustering algorithms (~1.25 pg)** — Architecture (k-means, hierarchical, density-based in distributed settings), how clustering organizes datasets, code example, deployment for efficient performance (parallel/distributed clustering, MapReduce-style).
+4. **File-sharing algorithms (~1.25 pg)** — Architecture (peer-to-peer, chunking, BitTorrent-style protocols), role in secure data distribution, code example, deployment: how partitioning and replication improve throughput.
+5. **Issues & resolutions (~1 pg)** — Inspiration: hash collisions, key management in decryption, cluster instability (choosing k), network churn in P2P, consistency vs. availability trade-offs — each with a concrete resolution.
+6. **Comparative analysis & conclusion (~0.75 pg)** — Which family for which workload; how architecture drives performance.
+7. **References** — ≥5 scholarly sources.
 
 ## Study Checklist
 - [ ] Read Lesson 7 and Module 3 materials
 - [ ] Draft architecture diagrams for the three algorithm families
 - [ ] Collect runnable code examples for each algorithm
-- [ ] Submit by Dec 6
+- [ ] Submit by Dec 6 (Turnitin pre-check first)
 
 ## Notes / Repo Links
 _(paste your repo links, drafts, and instructor feedback here)_

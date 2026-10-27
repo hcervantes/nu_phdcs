@@ -19,24 +19,41 @@
 
 ## Assignment Due This Week
 
-### Assignment 2 — Procedural vs. OO Language Comparison (Paper)
-**Due: Nov 8, 2026 · 6–8 pages · APA · ≥5 scholarly references**
+### Assignment 2 — Analyze the Evolution of Programming Languages (Part 2)
+**Due: Nov 8, 2026 11:59 PM · 10 points · Turnitin enabled**
 
-**Outline:**
-1. **Introduction** — the two chosen languages (e.g., C vs. Java) and why they are representative.
-2. **Syntax comparison** — structure, declarations, control structures.
-3. **Semantics & use** — how each paradigm models and executes program logic.
-4. **Compilation process** — how each language is compiled: lexical analyzers, variable handling, control structures, bytecode vs. native code.
-5. **Practical applications** — real-world domains where each excels.
-6. **Conclusion & references.**
+#### Assignment Instructions
+Research procedural and object-oriented programming language architecture and write a research paper comparing the **syntax, semantics, use, and structure** of two different languages (one procedural, one OO). Your paper must include, supported by academic references:
 
-**Rubric highlights:** compilation explanation, instruction compliance, critical thinking, organization, grammar/APA (Exceeds Expectations → Not Evident scale).
+- The concept of compilation: how high-level source code is transformed into object code to generate executable code — explained for **both** procedural and OO languages.
+- The use of lexical analyzers, variable declaration, initial value assignment, input, output formatting declarations, sequential, if-then-else, binary comparisons, and loops.
+- A conclusion identifying applications and solutions that use procedural programming languages, with **at least three current industry examples**.
+- **Length:** 6–8 pages (excluding cover and references) · **References:** ≥5 scholarly resources · APA.
+
+#### Simplified Grading Rubric (10 pts)
+| Criterion | Weight | To earn full points |
+|---|---|---|
+| Compilation process explained for both procedural and OO languages, based on peer-reviewed research | 3 pts | Strong, research-backed explanation of compilation in both paradigms |
+| Assignment instructions | 2 pts | All required elements: compilation, lexical analysis/variable/control-structure coverage, 3 industry examples |
+| Content & critical thinking | 2 pts | Thoughtful, thorough, well-reasoned comparison |
+| Cohesion & organization | 2 pts | Central comparison thesis carried through the whole paper |
+| Grammar, mechanics, APA, resources | 1 pt | Error-free APA; scholarly sources only |
+
+**Grade scale:** Exceeds ≥9 · Meets ≥8 · Needs Improvement ≥7.3 · Deficient ≥4
+
+#### Assignment Outline & Writing Inspiration
+1. **Introduction (~0.5 pg)** — Name your two languages (e.g., C vs. Java) and state the thesis: same compilation goal, different architectures and abstractions.
+2. **Syntax & semantics comparison (~1.5 pg)** — Side-by-side: declarations, statement structure, type systems, how each models program logic (procedures vs. objects/classes).
+3. **The compilation process (~1.5 pg)** — Walk source → lexical analysis → parsing → object code → executable for both languages. Inspiration: contrast native compilation (C) with bytecode + JVM/CLR (Java/.NET); show where classes/objects get resolved in OO compilation.
+4. **Language mechanics (~1.5 pg)** — Cover every required item with small code snippets: variable declaration, initial value assignment, input, output formatting, sequential statements, if-then-else, binary comparisons, loops.
+5. **Applications & industry examples (~1 pg)** — Conclusion section: where procedural languages still shine (embedded systems, OS kernels, legacy scientific code) plus ≥3 current industry examples.
+6. **References** — ≥5 scholarly sources.
 
 ## Study Checklist
 - [ ] Read Lesson 2 and Lesson 4
 - [ ] Choose your two languages and outline the comparison
 - [ ] Explain the compilation process in your own words before writing
-- [ ] Draft and submit Assignment 2
+- [ ] Draft and submit Assignment 2 by Nov 8 (Turnitin pre-check first)
 
 ## Notes / Repo Links
 _(paste your repo links, drafts, and instructor feedback here)_
