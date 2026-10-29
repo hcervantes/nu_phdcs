@@ -28,7 +28,7 @@ The table below is an original synthesis of the major generations of programming
 | 2nd | 1950s–1960s | First high-level languages; batch and scientific processing | FORTRAN, COBOL, LISP |
 | 3rd | 1970s | Structured, procedural programming; systems programming | C, Pascal, ALGOL 68 / Ada |
 | 4th | 1980s–1990s | Object-oriented programming; large-scale software | C++, Java, C# |
-| 5th | 2000s–present | Productivity, dynamic typing, multi-paradigm, mobile and web platforms | Python, Swift, JavaScript |
+| 5th | 2000s–present | Productivity, multi-paradigm, platform-native development (web, mobile, cloud, data) | Python, JavaScript, Swift, Go |
 
 ## Discussion of Each Generation
 
@@ -50,7 +50,9 @@ Fourth-generation languages — C++ (1983), Java (1995), and C# (2000) — model
 
 ### Fifth Generation: Modern Productivity and Platform Languages
 
-The most recent generation — Python (1991), JavaScript (1995), and Swift (2014) — prioritizes developer productivity and platform integration over raw speed. Their use is well known: Python dominates scripting, data science, and machine learning; JavaScript is the only language of the web browser and now of server runtimes such as Node.js; Swift is Apple's language for iOS and macOS development. Their strengths are concise, readable syntax, dynamic typing with fast iteration, enormous library ecosystems, and platform integration. Their weaknesses are runtime performance that lags compiled languages, dynamic typing that defers some errors to execution time, and fragmentation across rapidly moving toolchains (O'Regan, 2016). The performance gap is not marginal: in microcontroller benchmarks, a bubble sort of 1,000 elements completed in 68.9 ms in C but 2,541 ms in Python, and a 50,000-iteration loop took 2.5 ms in C versus 647.2 ms in Python (Dashdamirli, 2025) — evidence that the abstraction of interpreted, dynamically typed languages carries a real computational price. Conversely, when the workload is machine learning rather than raw speed, the trade reverses: comparative experiments feeding identical datasets to ML implementations in Python, Java, R, Julia, and C# found interpreted-language libraries *more* effective than compiled-language libraries for building ML solutions (Wiejak & Smołka, 2024).
+The most recent generation — Python (1991), JavaScript (1995), Go (2009), and Swift (2014) — prioritizes developer productivity and platform integration over raw speed. Each language dominates a different platform layer of modern computing. Python owns scripting, data science, and machine learning; JavaScript is the only language of the web browser and a major server runtime through Node.js; Go, created at Google, has become the language of cloud-native infrastructure — Docker, Kubernetes, and most modern DevOps tooling are written in it; and Swift powers the entire iOS and macOS ecosystem, running on billions of Apple devices worldwide.
+
+The strengths of this generation are concise, readable syntax, fast iteration, enormous library ecosystems, and deep platform integration. Go pairs C-like compiled performance with garbage collection and built-in concurrency primitives (goroutines and channels), making networked server software fast to write and efficient at scale; Swift combines compiled performance with automatic reference counting and memory-safety guarantees, bringing modern language design to mobile development. The weaknesses are runtime performance that lags compiled languages (Python, JavaScript), dynamic typing that defers some errors to execution time, Go's deliberately minimal feature set (no inheritance, limited metaprogramming), and fragmentation across rapidly moving toolchains. The performance gap is not marginal: in microcontroller benchmarks, a bubble sort of 1,000 elements completed in 68.9 ms in C but 2,541 ms in Python, and a 50,000-iteration loop took 2.5 ms in C versus 647.2 ms in Python (Dashdamirli, 2025) — evidence that the abstraction of interpreted, dynamically typed languages carries a real computational price. Conversely, when the workload is machine learning rather than raw speed, the trade reverses: comparative experiments feeding identical datasets to ML implementations in Python, Java, R, Julia, and C# found interpreted-language libraries *more* effective than compiled-language libraries for building ML solutions (Wiejak & Smołka, 2024).
 
 ## Bytecode, Intermediate Language, and Performance
 
@@ -76,7 +78,8 @@ A vivid way to open this section (adapted from your CSC8102-4 paper): the *same 
 | C++ | C syntax extended with classes, templates, RAII | Compiled native; zero-cost abstractions | Game engines, high-frequency trading, systems |
 | Python | Indentation-delimited blocks, dynamic, concise | Interpreted, dynamically typed, duck typing | Scripting, data science, machine learning |
 | JavaScript | C-like syntax, functions as first-class objects | Dynamically typed, event-driven, JIT in browsers/Node.js | Web front-ends and full-stack development |
-| Swift | Modern concise syntax, optionals, type inference | Compiled; memory-safe; ARC | iOS, macOS, watchOS applications |
+| Go | Minimal C-like syntax, no inheritance, type inference, goroutines/channels in the language | Compiled to native code; statically typed; garbage-collected; concurrent by design | Cloud-native infrastructure, networked servers, DevOps tooling (Docker, Kubernetes) |
+| Swift | Modern concise syntax, optionals, type inference, protocols | Compiled; memory-safe; automatic reference counting (ARC) | iOS, macOS, watchOS, and visionOS applications |
 
 *(Trim to the languages you actually discuss in depth, per your instructor's preference — the brief requires the languages from your generation discussion, at least three per generation.)*
 
