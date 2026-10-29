@@ -1,16 +1,18 @@
 # The Evolution of Programming Languages: From Machine Code to Modern High-Level Languages
 
-**DRAFT — Assignment 1 · CSC8110 Programming Languages and Algorithms · Due Nov 1, 2026**
+**DRAFT — Assignment 1 · CSC8110 Programming Languages and Algorithms · Due Sun, Nov 1, 2026, 11:59 PM Pacific**
 
-> ⚠️ **Before you submit:** Rewrite this in your own voice — your instructor grades on critical thinking and Turnitin similarity. Verify every citation yourself against the original sources, run the Turnitin pre-check, then submit to the Dropbox. Target: 6–8 pages excluding cover and references.
->
-> ⚠️ **Reusing your CSC8102 papers:** the ideas, examples, and citations below are fair game (they're yours), but **do not paste sentences verbatim** — your prior submissions are already in Turnitin's database, so recycled text will flag as self-plagiarism under NU's Academic Integrity Policy. Rewrite the passages in fresh wording.
+> **Course logistics (from Dr. Phillips' welcome letter):**
+> - **Instructor:** Dr. William Phillips, Ph.D. (Computer Science, NJIT, 2015; dissertation: *Adaptive Global Optimization Algorithms*; industry software engineer since 1979). Use his name on the APA title page.
+> - **File naming:** `CervantesHCSC8110-1` — last name, first initial, course code, dash, assignment number (no spaces, dots, or extra dashes).
+> - **No abstract** unless the assignment asks for one — A1 does not, so omit it.
+> - APA title page is mandatory; section headings; in-text and parenthetical citations; scholarly reference list.
+> - Pre-check with Grammarly/Turnitin before submitting. Due dates are mandatory; late submissions (up to 7 days) may incur a penalty — email wphillips@nu.edu if circumstances arise.
+> - Office hours: Wednesdays 3 PM Eastern; he invites an intro meeting via his calendar.
 
 ## Abstract
 
-*(Optional — the brief doesn't require one; delete if your instructor prefers no abstract.)*
-
-This paper analyzes the evolution of programming languages from the earliest machine-level instructions to today's high-level, multi-paradigm languages. It presents a timeline of five generations of programming languages, discussing the use, strengths, and weaknesses of each generation through at least three representative languages per generation. The paper then examines the role of Java's bytecode and .NET's intermediate language in bridging source code and hardware, and how performance can be improved through refined code, functions, and libraries. A comparison matrix of syntax and semantic structure across major languages identifies the problem domains where each is most commonly used.
+**DELETE THIS SECTION.** Dr. Phillips explicitly asks: *"Do not provide an abstract, unless the assignment asks for one"* — Assignment 1 does not. Go straight from the APA title page to the Introduction.
 
 ## Introduction
 
@@ -123,6 +125,9 @@ The evolution of programming languages is a history of rising abstraction: from 
 ## Submission Checklist
 
 - [ ] Rewrite in your own voice; verify Turnitin similarity
+- [ ] No abstract (per Dr. Phillips' policy)
+- [ ] APA title page: Hector Cervantes · National University · CSC8110 · Dr. William Phillips · Nov 1, 2026
+- [ ] Save as `CervantesHCSC8110-1` (no spaces, dots, or extra dashes)
 - [ ] Confirm 6–8 pages excluding cover and references
 - [ ] Timeline is your own table/diagram, not an internet image
 - [ ] ≥3 languages discussed per generation (currently: Gen 1 — machine code, Assembly; **add one more**, e.g., Autocode; Gen 2–5 have three or more)
