@@ -3,11 +3,12 @@
 **DRAFT — Assignment 1 · CSC8110 Programming Languages and Algorithms · Due Sun, Nov 1, 2026, 11:59 PM Pacific**
 
 > **Course logistics (from Dr. Phillips' welcome letter):**
+>
 > - **Instructor:** Dr. William Phillips, Ph.D. (Computer Science, NJIT, 2015; dissertation: *Adaptive Global Optimization Algorithms*; industry software engineer since 1979). Use his name on the APA title page.
 > - **File naming:** `CervantesHCSC8110-1` — last name, first initial, course code, dash, assignment number (no spaces, dots, or extra dashes).
 > - **No abstract** unless the assignment asks for one — A1 does not, so omit it.
 > - APA title page is mandatory; section headings; in-text and parenthetical citations; scholarly reference list.
-> - Pre-check with Grammarly/Turnitin before submitting. Due dates are mandatory; late submissions (up to 7 days) may incur a penalty — email wphillips@nu.edu if circumstances arise.
+> - Pre-check with Grammarly/Turnitin before submitting. Due dates are mandatory; late submissions (up to 7 days) may incur a penalty — email [wphillips@nu.edu](mailto:wphillips@nu.edu) if circumstances arise.
 > - Office hours: Wednesdays 3 PM Eastern; he invites an intro meeting via his calendar.
 
 ## Abstract
@@ -16,7 +17,7 @@
 
 ## Introduction
 
-More than 500 programming languages have been invented since the first electronic computers were assembled from switches and cables (Wexelblat, 1981). Each language embodies a set of specifications, syntax rules, and features designed to solve the problems of its era. Understanding how languages evolved is not merely an exercise in computing history: each generation abstracted away a class of problems that its predecessors handled manually, and the trajectory of that abstraction explains why modern languages look and behave the way they do. This paper traces that evolution through five generations, analyzes the role of intermediate representations such as Java bytecode and .NET intermediate language (IL), and compares the syntax and semantics of representative languages to identify where each is most effectively applied.
+More than 500 programming languages have been invented since the first electronic computers were assembled from switches and cables (Wexelblat, 1981). Each language embodies a set of specifications, syntax rules, and features designed to solve the problems of its era. Understanding how languages evolved is not merely an exercise in computing history: each generation abstracted away a class of problems that its predecessors handled manually, and the trajectory of that abstraction explains why modern languages look and behave the way they do. This paper traces that evolution through five generations, analyzes the role of intermediate representations such as Java bytecode and .NET intermediate language (IL), and compares the syntax and semantics of representative languages to identify where each is most effectively applied. It closes by arguing that because each language is purpose-built for a class of problems, selecting among them is an engineering decision rather than a matter of preference.
 
 ## Timeline of the Generations of Programming Languages
 
@@ -24,13 +25,15 @@ The table below is an original synthesis of the major generations of programming
 
 **Table 1. Timeline of programming language generations.**
 
-| Generation | Era | Defining characteristic | Major languages |
-|---|---|---|---|
-| 1st | 1940s–early 1950s | Machine code and assembly; hardware-specific | Machine code, Assembly (x86, etc.) |
-| 2nd | 1950s–1960s | First high-level languages; batch and scientific processing | FORTRAN, COBOL, LISP |
-| 3rd | 1970s | Structured, procedural programming; systems programming | C, Pascal, ALGOL 68 / Ada |
-| 4th | 1980s–1990s | Object-oriented programming; large-scale software | C++, Java, C# |
-| 5th | 2000s–present | Productivity, multi-paradigm, platform-native development (web, mobile, cloud, data) | Python, JavaScript, Swift, Go |
+
+| Generation | Era               | Defining characteristic                                                              | Major languages                    |
+| ---------- | ----------------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
+| 1st        | 1940s–early 1950s | Machine code and assembly; hardware-specific                                         | Machine code, Assembly (x86, etc.) |
+| 2nd        | 1950s–1960s       | First high-level languages; batch and scientific processing                          | FORTRAN, COBOL, LISP               |
+| 3rd        | 1970s             | Structured, procedural programming; systems programming                              | C, Pascal, ALGOL 68 / Ada          |
+| 4th        | 1980s–1990s       | Object-oriented programming; large-scale software                                    | C++, Java, C#                      |
+| 5th        | 2000s–present     | Productivity, multi-paradigm, platform-native development (web, mobile, cloud, data) | Python, JavaScript, Swift, Go      |
+
 
 ## Discussion of Each Generation
 
@@ -48,19 +51,19 @@ Third-generation languages such as C (1972), Pascal (1970), and Ada (1980) respo
 
 ### Fourth Generation: Object-Oriented Languages
 
-Fourth-generation languages — C++ (1983), Java (1995), and C# (2000) — model programs as interacting objects that combine data and behavior. Their use dominates enterprise and application software: C++ for performance-critical applications such as game engines and trading systems, Java for large-scale enterprise back-end systems, and C# for Windows and web applications. The strengths of this generation are encapsulation, inheritance, and polymorphism, which enable modularity, reuse, and maintainable growth to millions of lines of code (the concepts examined in Week 4). The weaknesses include greater conceptual overhead, the risk of over-engineered class hierarchies, and — until JIT compilation matured — runtime performance below that of compiled C (Bergin & Gibson, 1996).
+Fourth-generation languages — C++(1983), Java (1995), and C# (2000) — model programs as interacting objects that combine data and behavior. Their use dominates enterprise and application software: C++ for performance-critical applications such as game engines and trading systems, Java for large-scale enterprise back-end systems, and C# for Windows and web applications. The strengths of this generation are encapsulation, inheritance, and polymorphism, which enable modularity, reuse, and maintainable growth to millions of lines of code (the concepts examined in Week 4). The weaknesses include greater conceptual overhead, the risk of over-engineered class hierarchies, and — until JIT compilation matured — runtime performance below that of compiled C (Bergin &amp; Gibson, 1996).
 
 ### Fifth Generation: Modern Productivity and Platform Languages
 
 The most recent generation — Python (1991), JavaScript (1995), Go (2009), and Swift (2014) — prioritizes developer productivity and platform integration over raw speed. Each language dominates a different platform layer of modern computing. Python owns scripting, data science, and machine learning; JavaScript is the only language of the web browser and a major server runtime through Node.js; Go, created at Google, has become the language of cloud-native infrastructure — Docker, Kubernetes, and most modern DevOps tooling are written in it; and Swift powers the entire iOS and macOS ecosystem, running on billions of Apple devices worldwide.
 
-The strengths of this generation are concise, readable syntax, fast iteration, enormous library ecosystems, and deep platform integration. Go pairs C-like compiled performance with garbage collection and built-in concurrency primitives (goroutines and channels), making networked server software fast to write and efficient at scale; Swift combines compiled performance with automatic reference counting and memory-safety guarantees, bringing modern language design to mobile development. The weaknesses are runtime performance that lags compiled languages (Python, JavaScript), dynamic typing that defers some errors to execution time, Go's deliberately minimal feature set (no inheritance, limited metaprogramming), and fragmentation across rapidly moving toolchains. The performance gap is not marginal: in microcontroller benchmarks, a bubble sort of 1,000 elements completed in 68.9 ms in C but 2,541 ms in Python, and a 50,000-iteration loop took 2.5 ms in C versus 647.2 ms in Python (Dashdamirli, 2025) — evidence that the abstraction of interpreted, dynamically typed languages carries a real computational price. Conversely, when the workload is machine learning rather than raw speed, the trade reverses: comparative experiments feeding identical datasets to ML implementations in Python, Java, R, Julia, and C# found interpreted-language libraries *more* effective than compiled-language libraries for building ML solutions (Wiejak & Smołka, 2024).
+The strengths of this generation are concise, readable syntax, fast iteration, enormous library ecosystems, and deep platform integration. Go pairs C-like compiled performance with garbage collection and built-in concurrency primitives (goroutines and channels), making networked server software fast to write and efficient at scale; Swift combines compiled performance with automatic reference counting and memory-safety guarantees, bringing modern language design to mobile development. The weaknesses are runtime performance that lags compiled languages (Python, JavaScript), dynamic typing that defers some errors to execution time, Go's deliberately minimal feature set (no inheritance, limited metaprogramming), and fragmentation across rapidly moving toolchains. The performance gap is not marginal: in microcontroller benchmarks, a bubble sort of 1,000 elements completed in 68.9 ms in C but 2,541 ms in Python, and a 50,000-iteration loop took 2.5 ms in C versus 647.2 ms in Python (Dashdamirli, 2025) — evidence that the abstraction of interpreted, dynamically typed languages carries a real computational price. Conversely, when the workload is machine learning rather than raw speed, the trade reverses: comparative experiments feeding identical datasets to ML implementations in Python, Java, R, Julia, and C# found interpreted-language libraries *more* effective than compiled-language libraries for building ML solutions (Wiejak &amp; Smołka, 2024).
 
 ## Bytecode, Intermediate Language, and Performance
 
 Java's designers broke the traditional compile-to-native model by compiling source code to **bytecode**, an intermediate representation executed by the Java Virtual Machine (JVM). Similarly, .NET languages compile to **Common Intermediate Language (CIL/IL)**, executed by the Common Language Runtime (CLR). The intermediate representation buys three things. First, **portability**: bytecode and IL run on any platform with a compatible virtual machine, realizing "write once, run anywhere." Second, **managed execution**: the runtime supplies garbage collection, security, and verification that native code cannot guarantee. Third, **adaptive performance**: just-in-time (JIT) compilation translates hot bytecode paths into optimized native code at runtime, using information — such as actual call patterns — unavailable to a static compiler.
 
-Performance can be improved further by refining code and by using functions and libraries. Well-structured functions allow the JIT to inline small, frequently called methods, eliminating call overhead, and enable better branch prediction and cache locality. Mature libraries (such as the Java Class Library or .NET Base Class Library) are already profiled and optimized, so reusing them typically outperforms hand-written alternatives. Conversely, poorly structured code — deep inheritance chains, excessive object allocation, or string concatenation in loops — defeats the optimizer. The lesson for architects is that performance is a joint product of the language's intermediate representation, the runtime, and the discipline of the developer (Sebesta, 2016; Dimri, Malik, & Ram, 2021).
+Performance can be improved further by refining code and by using functions and libraries. Well-structured functions allow the JIT to inline small, frequently called methods, eliminating call overhead, and enable better branch prediction and cache locality. Mature libraries (such as the Java Class Library or .NET Base Class Library) are already profiled and optimized, so reusing them typically outperforms hand-written alternatives. Conversely, poorly structured code — deep inheritance chains, excessive object allocation, or string concatenation in loops — defeats the optimizer. The lesson for architects is that performance is a joint product of the language's intermediate representation, the runtime, and the discipline of the developer (Sebesta, 2016; Dimri, Malik, &amp; Ram, 2021).
 
 ## Comparison Matrix: Syntax and Semantic Structure
 
@@ -68,26 +71,36 @@ A vivid way to open this section (adapted from your CSC8102-4 paper): the *same 
 
 **Table 2. Syntax, semantics, and common purpose of representative languages.**
 
-| Language | Syntax structure | Semantic structure | Most common purpose/solution |
-|---|---|---|---|
-| Assembly | Mnemonics, registers, direct memory addressing; no types | One statement = one machine instruction; imperative | Bootloaders, device drivers, embedded control |
-| FORTRAN | Fixed-format, keyword-based statements, arrays first-class | Static typing, compiled numeric computation | Scientific and engineering computing |
-| COBOL | English-like, record-oriented divisions | Static typing, file and record processing | Business data processing, legacy finance systems |
-| LISP | S-expressions (parenthesized prefix notation) | Functional evaluation; functions as first-class values | AI research, symbolic computation |
-| C | Concise expressions, blocks, pointers, manual memory management | Compiled to native code; procedural; minimal runtime | Operating systems, embedded systems, infrastructure |
-| Java | C-like syntax, classes, strong static typing | Bytecode on the JVM; garbage-collected, object-oriented | Enterprise back-end systems, Android applications |
-| C# | C-like syntax, classes, properties, strong static typing | IL on the CLR; garbage-collected, multi-paradigm | Windows applications, web services (.NET) |
-| C++ | C syntax extended with classes, templates, RAII | Compiled native; zero-cost abstractions | Game engines, high-frequency trading, systems |
-| Python | Indentation-delimited blocks, dynamic, concise | Interpreted, dynamically typed, duck typing | Scripting, data science, machine learning |
-| JavaScript | C-like syntax, functions as first-class objects | Dynamically typed, event-driven, JIT in browsers/Node.js | Web front-ends and full-stack development |
-| Go | Minimal C-like syntax, no inheritance, type inference, goroutines/channels in the language | Compiled to native code; statically typed; garbage-collected; concurrent by design | Cloud-native infrastructure, networked servers, DevOps tooling (Docker, Kubernetes) |
-| Swift | Modern concise syntax, optionals, type inference, protocols | Compiled; memory-safe; automatic reference counting (ARC) | iOS, macOS, watchOS, and visionOS applications |
+
+| Language   | Syntax structure                                                                           | Semantic structure                                                                 | Most common purpose/solution                                                        |
+| ---------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Assembly   | Mnemonics, registers, direct memory addressing; no types                                   | One statement = one machine instruction; imperative                                | Bootloaders, device drivers, embedded control                                       |
+| FORTRAN    | Fixed-format, keyword-based statements, arrays first-class                                 | Static typing, compiled numeric computation                                        | Scientific and engineering computing                                                |
+| COBOL      | English-like, record-oriented divisions                                                    | Static typing, file and record processing                                          | Business data processing, legacy finance systems                                    |
+| LISP       | S-expressions (parenthesized prefix notation)                                              | Functional evaluation; functions as first-class values                             | AI research, symbolic computation                                                   |
+| C          | Concise expressions, blocks, pointers, manual memory management                            | Compiled to native code; procedural; minimal runtime                               | Operating systems, embedded systems, infrastructure                                 |
+| Java       | C-like syntax, classes, strong static typing                                               | Bytecode on the JVM; garbage-collected, object-oriented                            | Enterprise back-end systems, Android applications                                   |
+| C#         | C-like syntax, classes, properties, strong static typing                                   | IL on the CLR; garbage-collected, multi-paradigm                                   | Windows applications, web services (.NET)                                           |
+| C++        | C syntax extended with classes, templates, RAII                                            | Compiled native; zero-cost abstractions                                            | Game engines, high-frequency trading, systems                                       |
+| Python     | Indentation-delimited blocks, dynamic, concise                                             | Interpreted, dynamically typed, duck typing                                        | Scripting, data science, machine learning                                           |
+| JavaScript | C-like syntax, functions as first-class objects                                            | Dynamically typed, event-driven, JIT in browsers/Node.js                           | Web front-ends and full-stack development                                           |
+| Go         | Minimal C-like syntax, no inheritance, type inference, goroutines/channels in the language | Compiled to native code; statically typed; garbage-collected; concurrent by design | Cloud-native infrastructure, networked servers, DevOps tooling (Docker, Kubernetes) |
+| Swift      | Modern concise syntax, optionals, type inference, protocols                                | Compiled; memory-safe; automatic reference counting (ARC)                          | iOS, macOS, watchOS, and visionOS applications                                      |
+
 
 *(Trim to the languages you actually discuss in depth, per your instructor's preference — the brief requires the languages from your generation discussion, at least three per generation.)*
 
+## Language Selection: An Engineering Decision, Not a Preference
+
+The evolution traced above leads to a practical conclusion: each language is purpose-built for a class of problems, and choosing among them is an engineering decision rather than a matter of developer preference. Because language choice affects implementation cost, quality, and maintenance for years (Farshidi et al., 2021), it deserves the same disciplined treatment as any other architectural commitment.
+
+The evidence for this position is empirical as well as theoretical. Organizations that used a structured, criteria-based decision model for language selection made more defensible and more durable choices than those relying on developer preference alone (Farshidi et al., 2021). The criteria that matter are well documented: scalability, performance, security, use-case complexity, development lifecycle, exception handling, readability, writability, and portability (Nanz et al., 2015; Sharma et al., 2020). Each factor maps directly to the generations described in this paper. Performance favors the compiled systems lineage of C, C++, and Go; readability and development speed favor Python; platform integration dictates JavaScript for the web and Swift for Apple's ecosystem. Serverless benchmarks confirm that runtime architecture — interpreted, JIT-compiled, or native — directly shapes scalability behavior under load (Djemame et al., 2022), while microcontroller benchmarks quantify the price of abstraction: a bubble sort of 1,000 elements ran 68.9 ms in C versus 2,541 ms in Python (Dashdamirli, 2025). Yet the trade reverses for machine learning, where interpreted-language libraries proved more effective than compiled-language alternatives (Wiejak &amp; Smołka, 2024) — proof that no single factor, and no single language, dominates all workloads.
+
+*(Adapted from your CSC8102 papers 8102-4 and 8102-5 — rewrite in fresh wording. If space allows, a condensed weighted-scoring table like your 8102-5 Table 1, applied to a small use case, makes the engineering-decision argument concrete and gives the instructor evidence of applied critical thinking.)*
+
 ## Conclusion
 
-The evolution of programming languages is a history of rising abstraction: from machine instructions that mirrored hardware, through high-level and structured languages that made large programs writable, to object-oriented and modern languages that model problem domains and trade raw speed for productivity. Bytecode and .NET IL represent the current synthesis — a layer between source and hardware that combines portability and managed safety with JIT performance approaching native code. The matrix shows that no language is superior in the abstract; each generation and language dominates the problem class it was designed for. Choosing a language, therefore, remains an architectural decision grounded in this history: recent research shows organizations that use structured, criteria-based selection — weighing scalability, performance, security, complexity, lifecycle, exception handling, readability, writability, and portability — make more defensible and durable choices than those relying on developer preference alone (Saghafi et al., 2021). The right question is not which language is best, but which language's syntax, semantics, and runtime best fit the problem at hand.
+The evolution of programming languages is a history of rising abstraction: from machine instructions that mirrored hardware, through high-level and structured languages that made large programs writable, to object-oriented and modern languages that model problem domains and trade raw speed for productivity. Bytecode and .NET IL represent the current synthesis — a layer between source and hardware that combines portability and managed safety with JIT performance approaching native code. The matrix and the selection analysis together show that no language is superior in the abstract; each generation and language dominates the problem class it was designed for. The right question is therefore not which language is best, but which language's syntax, semantics, runtime, and platform ecosystem best fit the problem at hand — and answering it well is an act of engineering, not preference.
 
 ## Reusable Material from Your CSC8102 Papers
 
@@ -99,11 +112,11 @@ The evolution of programming languages is a history of rising abstraction: from 
   - The compiled-C vs. interpreted-Python pipeline figure and the C-vs-Python advantages/disadvantages table — basis for matrix rows.
   - Benchmarks: ESP8266 bubble sort 68.9 ms (C) vs. 2,541 ms (Python); 50,000-iteration loop 2.5 ms vs. 647.2 ms (Dashdamirli, 2025) — now integrated above into the Gen 5 discussion.
   - Your GIS/AML anecdote — consider a brief version in the introduction for authentic voice.
-  - Citations: Doskas (2021); Shirer (2026); Dashdamirli (2025); Coblenz (2017); Wiejak & Smołka (2024); Brborich et al. (2020).
+  - Citations: Doskas (2021); Shirer (2026); Dashdamirli (2025); Coblenz (2017); Wiejak &amp; Smołka (2024); Brborich et al. (2020).
 - **From "Assessing Current Programming Options" (8102-5):**
   - The Python, C#, and C++ synopses (origin/paradigm, use cases, strengths/weaknesses) — drop them into the matrix's "Most common purpose" column and Gen 4/5 prose.
   - The nine selection factors and weighted scoring methodology — repurposed in the conclusion (above).
-  - Citations: Saghafi et al. (2021); Sharma et al. (2020); Nanz et al. (2015); Pashynskykh et al. (2022); Yu & Duan (2022); Djemame et al. (2022).
+  - Citations: Saghafi et al. (2021); Sharma et al. (2020); Nanz et al. (2015); Pashynskykh et al. (2022); Yu &amp; Duan (2022); Djemame et al. (2022).
 - **From "From Gears to the Cloud" (8102-1):**
   - The pre-electronic/mechanical framing (Babbage, Lovelace) — a sentence or two of context for the timeline's opening.
   - Citations: Campbell-Kelly et al. (2014); O'Regan (2021) — note your paper used the 2021 O'Regan edition; match it here.
@@ -112,15 +125,16 @@ The evolution of programming languages is a history of rising abstraction: from 
 
 *(Verify each citation against the actual source before submitting; adjust years/editions to the copies you used, and confirm with your university library's search so all five are indisputably scholarly.)*
 
-- Bergin, T. J., & Gibson, R. G. (Eds.). (1996). *History of programming languages—II*. ACM Press/Addison-Wesley.
-- Dimri, S. C., Malik, P., & Ram, M. (2021). *Algorithms: Design and analysis*. De Gruyter.
-- Kernighan, B. W. (1984). *The C programming language* — cite the actual edition used. *(Replace with the exact edition, e.g., Kernighan & Ritchie, 1988.)*
+- Bergin, T. J., &amp; Gibson, R. G. (Eds.). (1996). *History of programming languages—II*. ACM Press/Addison-Wesley.
+- Dimri, S. C., Malik, P., &amp; Ram, M. (2021). *Algorithms: Design and analysis*. De Gruyter.
+- Kernighan, B. W. (1984). *The C programming language* — cite the actual edition used. *(Replace with the exact edition, e.g., Kernighan &amp; Ritchie, 1988.)*
 - O'Regan, G. (2016). *Introduction to the history of computing: A computing science primer*. Springer.
 - Sebesta, R. W. (2016). *Concepts of programming languages* (11th ed.). Pearson.
 - Wexelblat, R. L. (Ed.). (1981). *History of programming languages*. Academic Press.
-- *Carried over from your CSC8102 papers (verify full APA entries against the originals):* Dashdamirli (2025); Doskas (2021); Saghafi et al. (2021); Sharma et al. (2020); Wiejak & Smołka (2024); Nanz et al. (2015); Campbell-Kelly et al. (2014); O'Regan (2021). Any of these can replace the placeholder citations above to strengthen the "peer-reviewed literature" criterion — the full references are in your CSC8102 papers' reference lists; copy them from there.
+- *Carried over from your CSC8102 papers (verify full APA entries against the originals):* Dashdamirli (2025); Doskas (2021); Farshidi et al. (2021); Wiejak &amp; Smołka (2024); Nanz et al. (2015); Campbell-Kelly et al. (2014); O'Regan (2021). Any of these can replace the placeholder citations above to strengthen the "peer-reviewed literature" criterion — the full references are in your CSC8102 papers' reference lists; copy them from there.
+- ⚠️ **Citation check:** your CSC8102 papers cite "Farshidi et al. (2021)" in one paper and "Saghafi et al. (2021)" in the other for what appears to be the same criteria-based language-selection study. Verify which is correct before submitting (likely Farshidi et al., "A decision-support system for programming language selection") and use one consistently.
 
-*(Two strong candidates to swap in if needed: the ACM History of Programming Languages (HOPL) conference volumes, and peer-reviewed articles from the *ACM Computing Surveys* on language evolution.)*
+*(Two strong candidates to swap in if needed: the ACM History of Programming Languages (HOPL) conference volumes, and peer-reviewed articles from the ACM Computing Surveys on language evolution.)*
 
 ## Submission Checklist
 
