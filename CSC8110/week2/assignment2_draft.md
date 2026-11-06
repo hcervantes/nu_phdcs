@@ -1,4 +1,4 @@
-# From Source Code to Executable: A Comparative Analysis of Compilation and Language Architecture in Procedural and Object-Oriented Programming
+# From Source to Executable: Procedural vs. Object-Oriented Compilation
 
 Hector Cervantes
 
@@ -16,7 +16,7 @@ This paper compares the architecture of a procedural programming language (C) an
 
 ## Introduction
 
-Every application accepts input, processes it, and produces output; this is the Input-Processing-Output (IPO) model, and the programming language is the medium through which each stage is expressed (National University [NU], 2026). Programming languages are not interchangeable, however. Procedural languages such as C structure a program as a sequence of procedures that operate on data passed between functions, whereas object-oriented programming (OOP) languages such as Java structure a program as a collection of interacting objects, each grouping data together with the operations performed on that data (Ferrett & Offutt, 2003; Onu et al., 2024). Because language choice affects implementation cost, quality, and maintenance for years, selecting a language is an engineering decision rather than a matter of preference (Farshidi et al., 2021).
+Every application accepts input, processes it, and produces output; this is the Input-Processing-Output (IPO) model, a widely used approach in systems analysis and software engineering for describing the structure of an information-processing program (Subiyakto & Ahlan, 2014). Programming languages are not interchangeable, however. Procedural languages such as C structure a program as a sequence of procedures that operate on data passed between functions, whereas object-oriented programming (OOP) languages such as Java structure a program as a collection of interacting objects, each grouping data together with the operations performed on that data (Ferrett & Offutt, 2003; Onu et al., 2024). Because language choice affects implementation cost, quality, and maintenance for years, selecting a language is an engineering decision rather than a matter of preference (Farshidi et al., 2021).
 
 This paper compares the syntax, semantics, use, and structure of C, a procedural language, and Java, an object-oriented language. First, it explains the concept of compilation and traces how high-level source code is transformed into object code and linked into executable code in both paradigms. Second, it examines the shared machinery of translation: lexical analyzers, variable declaration, initial value assignment, input and output formatting, and the control structures of sequence, selection, binary comparison, and iteration. Third, it evaluates the strengths and weaknesses of each paradigm's architecture. The paper concludes by identifying applications and solutions that use procedural programming languages, with current industry examples.
 
@@ -86,7 +86,7 @@ The OOP design means input operations are method calls on objects that encapsula
 
 ### Sequence, If-Then-Else, Binary Comparisons, and Loops
 
-All programs, regardless of paradigm, are composed of the three control structures of structured programming: sequence, selection, and repetition (NU, 2026). Both C and Java express these with nearly identical syntax, a direct legacy of C in Java's design.
+All programs, regardless of paradigm, are composed of the three control structures of structured programming: sequence, selection, and repetition, the elements through which the IPO model's processing stage is expressed (Subiyakto & Ahlan, 2014). Both C and Java express these with nearly identical syntax, a direct legacy of C in Java's design.
 
 *Sequence.* Statements execute in order in both languages; sequencing is the default control structure. In C, the unit of sequence is the statement within a function; in Java, it is the statement within a method.
 
@@ -152,12 +152,12 @@ Farshidi, S., Jansen, S., & España, S. (2021). *A framework for selecting a pro
 
 Ferrett, R., & Offutt, J. (2003). An empirical comparison of modularity of procedural and object-oriented software. In *Proceedings of the Eighth IEEE International Conference on Engineering of Complex Computer Systems (ICECCS 2003)* (pp. 2–13). IEEE. https://doi.org/10.1109/ICECCS.2003.1201793
 
-National University. (2026). *CSC 8110: Programming languages and algorithms [Course materials]*.
-
 Onu, F. U., Oliver, I. C., Hyginus, M. C., Yinka, A. I., Nwodo, J. O., & Sunday, Y. (2024). Demystifying the object-oriented features of popular object-oriented programming languages. *IOSR Journal of Computer Engineering, 26*(5, Ser. 1), 26–32.
 
 Pai T, V., & Aithal, P. S. (2020). A systematic literature review of lexical analyzer implementation techniques in compiler design. *International Journal of Applied Engineering and Management Letters, 4*(2), 285–301.
 
 Shirer, M. (2026). [Add full citation from your CSC 8102 Week 2 or 3 reference list — compilers, interpreters, syntax vs. semantics.]
+
+Subiyakto, B., & Ahlan, A. R. (2014). Implementation of input-process-output model for measuring information system project success. [Verify exact journal name, volume, and pages on the paper's record before submitting.]
 
 Wiejak, P., & Smołka, J. (2024). [Add full citation from your CSC 8102 reference list — comparison of ML implementations across Python, Java, R, Julia, C#.]
